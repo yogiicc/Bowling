@@ -1,0 +1,24 @@
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+thead th{
+    border: 3px solid black;
+}
+
+#E1{
+    border: 3px solid green;
+    color: purple;
+}
+#E2{
+    border: 3px solid purple;
+    color: green;
+}
+#E1 td{
+    border: 3px solid green;
+}
+#E2 td{
+    border: 3px solid purple;
+}
