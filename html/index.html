@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+
+<head>
+    <meta charset="utf_8">
+    <meta name="author" content="Louise Murarasu">
+    <meta name="copyright" content="Louise Murarasu">
+    <title>Bowling</title>
+    <script type="text/javascript" charset="UTF-8" src="../../libs/three/three.js"></script> 
+    <script type="text/javascript" charset="UTF-8" src="../../libs/three/controls/OrbitControls.js"></script>
+    <script type="text/javascript" src="../../libs/util/dat.gui.js"></script>
+    <script type="text/javascript" src="../../libs/util/Stats.js"></script>
+    <script type="text/javascript" src="../../libs/util/util.js"></script>
+    <script type="text/javascript" src="../js/index.js"></script>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+
+<body onload="init()">
+    <div id="webgl"><br /></div>
+    <div> 
+        <table>
+            <thead>
+                <tr>
+                    <th>Equipe </th>
+                    <th colspan="2">Mene 1</th>
+                    <th colspan="2">Mene 2</th>
+                    <th> Score Total </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="E1">
+                    <th>Equipe 1</th>
+                    <td id="l1m1E1"></td><td id="l2m1E1"></td>
+                    <td id="l1m2E1"></td><td id="l2m1E1"></td>
+                    <td> </td>
+                </tr>
+                <tr id="E2">
+                    <th>Equipe 2</th>
+                    <td id="l1m1E2"></td><td id="l2m1E2"></td>
+                    <td id="l1m2E2"></td><td id="l1m2E2"></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
